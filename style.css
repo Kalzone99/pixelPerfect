@@ -1,149 +1,152 @@
-* {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-html {
-    font-family: 'Roboto', sans-serif;
+    * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
     }
-body {
-    background-color: #D74949;
-}
-.rectangle_2 {
-    background-color: #f3f3f3;
-    max-width: 1110px;
-    min-height: 615px;
-    margin: auto;   
-}
-.rectangle_5 {
-    
-    width: 50px;
-    height: 2px;
-    border: solid 2px rgb(211, 210, 210);
-    display: inline-block;
-    position: relative;
-    top: -3px
-    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-}  
-h1 {
-    font-family: 'roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 800;
-    width: 64px;
-    height: 16px;
-    text-shadow: 0px 2px 3px gray;
-    text-align: left;   
-    padding-top: 100px;
-    letter-spacing: -0.8px;
-    display: inline-block;
-    position: relative;
-    left: -3px;
-}
-h2 {
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: right;
-    font-size: 16px;
-    letter-spacing: 2px;   
-}
-p {
-    text-transform: uppercase;
-    margin: 0 50px;
-    text-align: center;
-    font-size: 20px;
-}
-span {
-    color: rgb(205, 0, 0)
-}
-.card {
-    margin-top: 38px;
-    margin-left: 50px;
-    height: 300px;
-    width: 200px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    box-shadow: 0.2px 1px rgb(171, 163, 163);
-    overflow: hidden;
-}
+    html {
+        font-family: 'Roboto', sans-serif;
+        }
+    body {
+        background-color: #D74949;
+        position: relative;
+        min-height: 100vh;
+    }
+    .container {
+        background-color: #f3f3f3;
+        max-width: 75%;
+        min-height: calc(100vh - 75px); /* This is the entirety of the body - the height of the footer !!!)*/
+        margin: auto;
+        
+    }
+    .rectangle_5 {
+        
+        width: 50px;
+        height: 2px;
+        border: solid 2px rgb(211, 210, 210);
+        display: inline-block;
+        position: relative;
+        top: -3px
+        
 
-.card.photo {
-    width:180;
-    height: 175px;
-    
-}
-.photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-h3 {
-    margin-left: 20px;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 3;
-}
-h4 {
-    margin-left: 20px;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 0;
+    }  
+    h1 {
+        font-family: 'roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        width: 64px;
+        height: 16px;
+        text-shadow: 0px 2px 3px gray;
+        text-align: left;   
+        padding-top: 100px;
+        letter-spacing: -0.8px;
+        display: inline-block;
+        position: relative;
+        left: -3px;
+    }
+    h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: right;
+        font-size: 16px;
+        letter-spacing: 2px;   
+    }
+    p {
+        text-transform: uppercase;
+        margin: 0 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    span {
+        color: rgb(205, 0, 0)
+    }
+    .card {
+        margin-top: 38px;
+        margin-left: 50px;
+        height: 300px;
+        width: 200px;
+        border: 1px solid grey;
+        border-radius: 20px;
+        box-shadow: 0.2px 1px rgb(171, 163, 163);
+        overflow: hidden;
+    }
 
-}
-.logos {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    margin-right: 5px;
-}
-.linkedin {
-    
-    
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 100%;
-    height: 100%;
-    
+    .card.photo {
+        width:180;
+        height: 175px;
+        
+    }
+    .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    h3 {
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 3;
+    }
+    h4 {
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 0;
 
-}
-.logos_1 {
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    margin-right: 10px;
-}
-.whatsapp {
-    
-    
-    
-    margin-left: 20px;
-    width: 100%;
-    height: 100%;
-    
+    }
+    .logos {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+    }
+    .linkedin {
+        
+        
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 100%;
+        height: 100%;
+        
 
-}
+    }
+    .logos_1 {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+    }
+    .whatsapp {
+        
+        
+        
+        margin-left: 20px;
+        width: 100%;
+        height: 100%;
+        
 
-.foot {
-    height: 100%;
-    line-height: 75px;
-    background-color: #464646;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    
+    }
 
-}
-.foot_text {
-    font-size: 14px;
-    text-transform: none;
-    display: inline-block;
-    line-height: normal;
-    margin: 0;
-    color: white;
-    
-}
+    .foot {
+        height: 75px;
+        line-height: 75px;
+        background-color: #464646;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        
+
+    }
+    .foot_text {
+        font-size: 14px;
+        text-transform: none;
+        display: inline-block;
+        line-height: normal;
+        margin: 0;
+        color: white;
+        
+    }
 
 
 
