@@ -58,11 +58,72 @@ p {
 span {
     color: rgb(205, 0, 0)
 }
+.card {
+    margin-top: 38px;
+    margin-left: 50px;
+    height: 300px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 0.2px 1px rgb(171, 163, 163);
+    overflow: hidden;
+}
 
+.card.photo {
+    width:180;
+    height: 175px;
+    
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+h3 {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 3;
+}
+h4 {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 0;
 
+}
+.logos {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.linkedin {
+    
+    
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+    
 
+}
+.logos_1 {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.whatsapp {
+    
+    
+    
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+    
 
-
+}
 
 .foot {
     height: 75px;
